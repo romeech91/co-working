@@ -1,0 +1,107 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 1100px;
+}
+
+.header__top {
+  background: #27273e;
+}
+
+.number {
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  font-style: bold;
+  color: #fff;
+}
+
+.schedule_dropped {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 700;
+  color: #ec1e79;
+}
+
+.container__menu-item {
+  list-style: none;
+}
+
+.container__menu-item a {
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size:12px;
+  font-style: bold;
+  text-decoration: none;
+  color: #ec1e79;
+}
+
+.container__menu-item a:nth-child(1) {
+  color: black; 
+}
+
+.features {
+  list-style: none;
+}
+
+li.features__item {
+  height: 286px;
+  width: 194px;
+  text-align: center;
+
+}
+
+.container__features h1, .container__news h1 {
+  color: #221f1f;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 49px;
+  font-style: bold;
+}
+
+.features__pic {
+  width: 68px;
+  height: 68px;
+  background-color: #27273e;
+  border-radius: 80px;
+}
+.features__pic img {
+  
+}
+
+p.features__text-topic {
+  color: #212121;
+  font-size: 11px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+}
+
+ul.features__text-list {
+  color: #221f1f;
+  font-size: 18px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  list-style: disc;
+}
+
+ul.news__list {
+  list-style: none;
+}
+
+div.news__content div {
+  color: #656464;
+  font-size: 14px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+div.news__content span, div.news__content p {
+  
+}

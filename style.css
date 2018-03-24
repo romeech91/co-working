@@ -238,6 +238,9 @@ ul.container__pages-list > li.container__page-num a:hover {
   color: white;
 }
 
+
+
+
 ul li.footer__social__logo {
   list-style: none;
   display: inline-block;
@@ -245,26 +248,71 @@ ul li.footer__social__logo {
   width: 20px;
   height: 20px;
   border-radius: 80px;
+  margin-right: 5px;
+  text-align: center;
 }
 
 ul li.footer__social__logo:nth-child(1) {
   background: #ec1e79;
 }
 
+ul li.footer__social__logo:hover {
+  background: #8F8F99;
+}
+
 .footer {
   background: #27273e;
   color: white;
+  position: relative;
+  height: 77px;
 }
 
-div.footer__social p {
+.footer__social {
+  margin-left: 910px;
+  margin-top: -30px;
+}
+
+.footer__social p {
   font-size: 14px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-style: bold;
+  display: inline;
+  width: 174px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-div.footer__text p {
+.footer__social ul {
+  padding-left: 0;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.footer__social li {
+  display: block;
+  width: 174px;
+
+}
+
+.footer__text {
+  display: inline-block;
+  width: 264px;
+  position: relative;
+  left: 19px;
+  top: 14px;
+}
+
+.footer__text p {
   font-size: 14px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-style: bold;
+  margin: 0;
+}
+
+.footer__logo {
+  position: absolute;
+  top: 14px;
+  left: 499px;
 }

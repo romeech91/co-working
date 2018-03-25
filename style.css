@@ -59,10 +59,9 @@ body {
   font-style: bold;
   font-weight: 700;
   color: #ec1e79;
- /*  border: 1px solid olivedrab; */
   padding-top: 0;
   display: block;
-  width: 114px;
+  width: 136px;
   margin-top: 6px;
   margin-left: 70px;
 }
@@ -71,7 +70,7 @@ body {
 }
 
 .container {
-  
+  margin-top: 0;
 }
 
 .container__menu-list {
@@ -86,6 +85,8 @@ body {
   list-style: none;
   display: block;
   margin-bottom: 32px;
+  text-align: left;
+  padding-left: 0;
 }
 
 .container__menu-item a {
@@ -95,16 +96,18 @@ body {
   font-style: bold;
   text-decoration: none;
   color: #ec1e79;
-  margin-left: 20px;
-  text-align: left;
-  text-decoration: underline;
+  margin-left: 0;
 }
 
 .container__menu-item a:hover {
   text-decoration: none;
   color: #000;
 }
-
+.container__menu-item img {
+  text-decoration-line: line-through;
+  margin-right: 20px;
+  vertical-align: bottom;
+}
 
 .container__menu {
   width: 147px;

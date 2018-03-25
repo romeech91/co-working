@@ -106,7 +106,7 @@ body {
 .container__menu-item img {
   text-decoration-line: line-through;
   margin-right: 20px;
-  vertical-align: bottom;
+  vertical-align: text-bottom;
 }
 
 .container__menu {

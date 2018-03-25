@@ -85,7 +85,7 @@ body {
 .container__menu-item {
   list-style: none;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .container__menu-item a {

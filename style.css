@@ -19,7 +19,6 @@ body {
   position: relative;
 }
 .header__top-logo {
-/*  border: 1px solid yellow; */
  width: 99px;
  height: 51px;
  position: absolute;
@@ -29,7 +28,6 @@ body {
 }
 
 .header__top-info {
- /*  border: 1px solid yellow; */
   width: 189px;
   position: absolute;
   right: 0;
@@ -42,9 +40,7 @@ body {
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 21px;
-  font-style: bold;
   color: #fff;
-  /* border: 1px solid mediumvioletred; */
   padding: 0;
   display: inline;
   text-decoration: none;
@@ -56,7 +52,6 @@ body {
 .schedule_dropped {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-style: bold;
   font-weight: 700;
   color: #ec1e79;
   padding-top: 0;
@@ -95,7 +90,6 @@ body {
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size:12px;
-  font-style: bold;
   text-decoration: none;
   color: #ec1e79;
   margin-left: 0;
@@ -151,7 +145,6 @@ li.features__item:nth-child(2), li.features__item:nth-child(3) {
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 49px;
-  font-style: bold;
 }
 
 .container__features {
@@ -179,7 +172,6 @@ p.features__text-topic {
   font-size: 11px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-style: bold;
   padding-top: 32px;
   margin-top: 0;
   margin-bottom: 28px;
@@ -191,7 +183,6 @@ ul.features__text-list {
   font-size: 18px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-style: normal;
   list-style: disc;
   text-align: center;
   padding-left: 0;
@@ -221,14 +212,12 @@ div.news__content div {
   font-size: 14px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-style: normal;
 }
 div.news__content p {
   color: #221f1f;
   font-size: 18px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-style: normal;
 }
 
 div.news__content span {
@@ -236,7 +225,6 @@ div.news__content span {
   font-size: 18px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-style: bolder;
 }
 
 ul.container__pages-list li {
@@ -299,7 +287,6 @@ ul li.footer__social__logo:hover {
   font-size: 14px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-style: bold;
   display: inline;
   width: 174px;
   padding: 0;
@@ -330,7 +317,6 @@ ul li.footer__social__logo:hover {
 .footer__text p {
   font-size: 14px;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
-  font-style: bold;
   margin: 0;
 }
 

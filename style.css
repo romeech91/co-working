@@ -99,6 +99,7 @@ body {
   text-decoration: none;
   color: #ec1e79;
   margin-left: 0;
+  text-transform: uppercase;
 }
 
 .container__menu-item a:hover {
@@ -182,6 +183,7 @@ p.features__text-topic {
   padding-top: 32px;
   margin-top: 0;
   margin-bottom: 28px;
+  text-transform: uppercase;
 }
 
 ul.features__text-list {

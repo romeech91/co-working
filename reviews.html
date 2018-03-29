@@ -10,150 +10,159 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="reviews-style.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="normalize.css">
 	<!-- <link rel="shorcut icon" href="https://cdn4.iconfinder.com/data/icons/business-use/74/80-32.png"> -->
 	<title>Coworking/reviews</title>
 </head>
 
 <body>
-	<!-- HEADER -->
-	<div class="wrapper">
-		<div class="header">
-			<div class="header-logo">
-				<img src="img/logo-fig.png" alt="">
-			</div>
-			<div class="header-info">
-				<a href="#" class="number">8(800)00-392-10</a>
-				<a href="#" class="schedule_dropped">График работы</a>
-			</div>
-		</div>
-		<div class="container">
+	<div class="wrap">
+			<div class="header">
 
-			<div class="container__menu">
-				<!-- MENU HERE -->
-				<ul class="container__menu-list">
-					<li class="container__menu-item menu__item_black">
+					<div class="header__top">
+						<div class="contain clearfix">
+		
+							<div class="header__top-item--left">
+								<img src="img/logo-fig.png" alt="логотип компании">
+							</div>
+		
+							<div class="header__top-item--right">
+								<div class="contacts">
+									<a href="#" class="number">8(800)00-392-10</a>
+									<a href="#" class="schedule_dropped">График работы</a>
+								</div>
+							</div>
+		
+						</div>
+					</div>
+					
+			</div> <!-- END HEADER -->
 
-						<img src="img/menu/main-icon.png" alt="menu icon">
-						<a href="index.html">ГЛАВНАЯ</a>
+			<div class="main__container clearfix">
+				<div class="contain">
+						<div class="container__menu clearfix">
+								<!-- MENU HERE -->
+								<ul class="container__menu-list">
+									<li class="container__menu-item">
+										<a href="index.html">
+											<img src="img/menu/main-icon.png" alt="главная  лого"> главная
+										</a>
+									</li>
+									<li class="container__menu-item">
+										<a href="reviews.html">
+											<img src="img/menu/feed-icon.png" alt="отзывы лого"> отзывы
+										</a>
+									</li>
+									<li class="container__menu-item">
+										<a href="#">
+											<img src="img/menu/wallet-icon.png" alt="тарифы   лого"> тарифы
+										</a>
+									</li>
+								</ul>
+							</div>
 
-					</li>
-					<li class="container__menu-item">
-						<img src="img/menu/feed-icon.png" alt="menu feed">
-						<a href="reviews.html">ОТЗЫВЫ</a>
-					</li>
-					<li class="container__menu-item">
-						<img src="img/menu/wallet-icon.png" alt="menu wallet">
-						<a href="#">ТАРИФЫ</a>
-					</li>
-				</ul>
-			</div>
-			<div class="reviews">
-				<!-- REVIEWS -->
-				<div class="reviews__bread-crubms"></div>
-				<h1>Отзывы</h1>
-				<div class="reviews__content">
-					<div class="bread__crumbs"></div>
-					<ul class="reviews__list">
-						<li class="reviews__list-item">
-							<img src="/img/reviews/" alt="avatar" class="reviews__item-photo">
-							<time>12.10.2016</time>
-							<span>Олег Павлов</span>
-							<p>Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле
-								и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний
-								уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
-						</li>
-						<li class="reviews__list-item">
-							<img src="" alt="avatar" class="reviews__item-photo">
-							<time>01.02.2016</time>
-							<span>Эрнест Изиль</span>
-							<p>Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие.
-								Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный
-								интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества,
-								все отлично!</p>
-						</li>
-						<li class="reviews__list-item">
-							<img src="" alt="avatar" class="reviews__item-photo">
-							<time>22.12.2015</time>
-							<span>Елена Сургай</span>
-							<p>Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной
-								работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу
-								вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать
-								филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :)</p>
-						</li>
-						<li class="reviews__list-item">
-							<img src="" alt="avatar" class="reviews__item-photo">
-							<time>14.08.2015</time>
-							<span>Наталья Осадчая</span>
-							<p>Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс,
-								и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько
-								переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<!-- CHOOSE PAGE -->
-			<div class="container__pages">
-				<ul class="container__pages-list">
-					<li class="container__page">Страница 1 из 7</li>
-					<li class="container__page">
-						<a href="#">
-							<img src="img/left-arrow-light.png" alt="">
-						</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">1</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">2</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">3</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">4</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">5</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">6</a>
-					</li>
-					<li class="container__page-num">
-						<a href="#">7</a>
-					</li>
-					<li class="container__page">
-						<a href="">
-							<img src="img/right-arrow.png" alt="">
-						</a>
-					</li>
-				</ul>
-			</div>    <!-- END PAGES -->
+							<div class="content clearfix">
+								<div class="content__breadcrumbs">Главная/Отзывы</div>
+								<div class="content__reviews">
+									<h1>Отзывы</h1>
+									<ul class="content__reviews-list">
+										<li class="content__reviews-item">
+												<div class="reviews-item__avatar">
+														<img src="img/reviews/avatar1.png" alt="фото Олег">
+												</div>
+												<div class="reviews-item__text">
+													<div>12.10.2016</div>
+													<span>Олег Павлов</span>
+													<p>Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство. </p>
+												</div>	
+										</li>
+										<li class="content__reviews-item">
+												<div class="reviews-item__avatar">
+														<img src="img/reviews/avatar2.png" alt="фото Эрнест">
+												</div>
+												<div class="reviews-item__text">
+													<div>01.02.2016</div>
+													<span>Эрнест Изиль</span>
+													<p>Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
+												</div>	
+										</li>
+										<li class="content__reviews-item">
+												<div class="reviews-item__avatar">
+														<img src="img/reviews/avatar3.png" alt="лого">
+												</div>
+												<div class="reviews-item__text">
+													<div>22.12.2015</div>
+													<span>Елена Сургай</span>
+													<p>Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :)</p>
+												</div>	
+										</li>
+										<li class="content__reviews-item clearfix">
+												<div class="reviews-item__avatar">
+														<img src="img/reviews/avatar4.png" alt="фото Наталья">
+												</div>
+												<div class="reviews-item__text">
+													<div>14.08.2015</div>
+													<span>Наталья Осадчая</span>
+													<p>Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</p>
+												</div>	
+										</li>
 
-								<!-- SEPARATION BLOCK -->
-			<div class="container__separation-block">
-				<p>Для наших новых клиентов мы предлагаем <span>скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
-			</div>
+									</ul>
+									
+										
+									</div> <!-- CONTENT REVIEWS END -->
+								</div> <!-- CONTENT END -->
+								<div class="container__pages">
+										<!--CHOOSE PAGES -->
+										<ul class="container__pages-list">
+											<li class="container__page">Страница 1 из 7</li>
+											<li class="container__page">
+												<a href="#">
+													<img src="img/left-arrow-light.png" alt="стрелка влево">
+												</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">1</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">2</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">3</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">4</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">5</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">6</a>
+											</li>
+											<li class="container__page-num">
+												<a href="#">7</a>
+											</li>
+											<li class="container__page">
+												<a href="">
+													<img src="img/right-arrow.png" alt="стрелка вправо">
+												</a>
+											</li>
+										</ul>
+									</div>
+							
+							<div class="container__separating-block">
+								<p>Для наших новых клиентов мы предлагаем скидку 50% на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
+							</div>
 
-									<!-- FEEDBACK BLOCK -->
-			<div class="container__feedback">
-			<form action="" class="feedback">
-				<h1>Оставить отзыв</h1>
-				Ваше имя<br>
-				<input type="text">
-				Ссылка на профиль <br>
-				<input type="text"> <br>
-				<textarea name="feedback" id="" cols="30" rows="10"></textarea> <br>
-				Отображать фото в отзыве? <br>
-				<input type="radio" name="choose" id="">Да<input type="radio" name="choose" id="">Нет
-				<button type="submit">Отправить</button>
-			</form>	
-			</div>
+							<div class="container__review-adding">
+								<h1>Оставить отзыв</h1>
+							</div>
+				</div> <!-- CONTAIN -->
+			</div> <!-- MAIN CONTAINER -->
+	</div> <!-- WRAP END -->
 
-		</div>    <!-- END CONTAINER -->
-
-		<!-- FOOTER -->
-		<div class="footer">
-			<div class="footer">
+	<div class="footer clearfix">
+			<div class="contain">
 				<div class="footer__text">
 					<p>Сделано с любовью и старанием на курсе «HTML + CSS» в
 						<b>LoftSchool.</b> Автор работы:
@@ -161,40 +170,41 @@
 					</p>
 				</div>
 				<div class="footer__logo">
-					<img src="img/logo-fig.png" alt="">
+					<img src="img/logo-fig.png" alt="логотип компании">
 				</div>
 				<div class="footer__social">
 					<p>Наши социальные сети</p>
 					<ul>
 						<li class="footer__social__logo">
 							<a href="#">
-								<img src="img/social/vk.png" alt="vk">
+								<img src="img/social/vk.png" alt="вконтакте">
 							</a>
 						</li>
 						<li class="footer__social__logo">
 							<a href="#">
-								<img src="img/social/fb.png" alt="facebook">
+								<img src="img/social/fb.png" alt="фейсбук">
 							</a>
 						</li>
 						<li class="footer__social__logo">
 							<a href="#">
-								<img src="img/social/google.png" alt="google">
+								<img src="img/social/google.png" alt="гугл">
 							</a>
 						</li>
 						<li class="footer__social__logo">
 							<a href="#">
-								<img src="img/social/twitter.png" alt="twitter">
+								<img src="img/social/twitter.png" alt="твиттер">
 							</a>
 						</li>
 						<li class="footer__social__logo">
 							<a href="#">
-								<img src="img/social/mail.png" alt="facebook">
+								<img src="img/social/mail.png" alt="почта">
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
+
 	</div>
 </body>
 

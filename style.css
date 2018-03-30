@@ -165,6 +165,7 @@
     margin: 0 auto;
     margin-right: 40px;
     margin-bottom: -13px;
+    margin-left: 2px;
   }
   
  
@@ -255,8 +256,8 @@
   
   ul.features__text-list li {
       text-align: left;
-      margin-left: 20px;
-      padding: 10px;
+      margin-left: 18px;
+      padding: 8px;
   }
 
 
@@ -284,26 +285,29 @@
   }
 
   .news__content {  
-      display: block;
-
+    display: block;
+    margin-top: -4px;
+    max-width: 860px;
+    
   }
   
-  div.news__content div {
+ .news__content-date{
     color: #656464;
     font-size: 14px;
     font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
     font-weight: 300;
+    margin-bottom: 8px;
   }
   div.news__content p {
     color: #221f1f;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
     font-weight: 300;
   }
   
   div.news__content span {
     color: #221f1f;
-    font-size: 18px;
+    font-size: 17px;
     font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
     font-weight: 700;
   }

@@ -120,7 +120,7 @@
           </ul>
         </section>
         <section class="container__news">
-          <h1>Последние новости</h1>
+          <h1 class="container__news-topic">Последние новости</h1>
           <ul class="news__list">
             <!-- FIRST ITEM -->
             <li class="news__item">
@@ -129,10 +129,10 @@
               </div>
               <div class="news__content">
                 <div class="news__content-date">12.10.2016</div>
-                <span>Черная дыра скидок</span>
-                <p>Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах
+                <span class="news__content-theme">Черная дыра скидок</span>
+                <p class="news__content-text">Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах
                   от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате
-                  24/7. Используйте шкаф для хранения личных вещей. </p>
+                  24/7. Используйте шкаф для хранения личных вещей.</p>
               </div>
             </li>
             <li class="news__item">
@@ -142,8 +142,8 @@
               </div>
               <div class="news__content">
                 <div class="news__content-date">01.02.2016</div>
-                <span>Заражай друзей, получай призы!</span>
-                <p>Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить
+                <span class="news__content-theme">Заражай друзей, получай призы!</span>
+                <p class="news__content-text">Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить
                   на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами
                   или менторами для резидентов. </p>
               </div>
@@ -155,8 +155,8 @@
               </div>
               <div class="news__content">
                 <div class="news__content-date">22.12.2015</div>
-                <span>Новое рабочее место для бизнесменов.</span>
-                <p>Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную
+                <span class="news__content-theme">Новое рабочее место для бизнесменов.</span>
+                <p class="news__content-text">Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную
                   зону и зону релакса.Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой,
                   чайником, кофе машиной, посудой.</p>
               </div>
@@ -166,32 +166,32 @@
         <div class="container__pages">
           <!--CHOOSE PAGES -->
           <ul class="container__pages-list">
-            <li class="container__page">Страница 1 из 7</li>
+            <li class="container__page-choose">Страница 1 из 7</li>
             <li class="container__page">
               <a href="#">
                 <img src="img/left-arrow-light.png" alt="стрелка влево">
               </a>
             </li>
-            <li class="container__page-num">
-              <a href="#">1</a>
+            <li class="container__page-num container__page--active">
+                <a class="container__page-item" href="#">1</a>
             </li>
             <li class="container__page-num">
-              <a href="#">2</a>
+              <a class="container__page-item" href="#">2</a>
             </li>
             <li class="container__page-num">
-              <a href="#">3</a>
+              <a class="container__page-item" href="#">3</a>
             </li>
             <li class="container__page-num">
-              <a href="#">4</a>
+              <a class="container__page-item" href="#">4</a>
             </li>
             <li class="container__page-num">
-              <a href="#">5</a>
+              <a class="container__page-item" href="#">5</a>
             </li>
             <li class="container__page-num">
-              <a href="#">6</a>
+              <a class="container__page-item" href="#">6</a>
             </li>
             <li class="container__page-num">
-              <a href="#">7</a>
+              <a class="container__page-item" href="#">7</a>
             </li>
             <li class="container__page">
               <a href="">
@@ -208,7 +208,7 @@
   <footer class="footer clearfix">
     <div class="contain">
       <div class="footer__text">
-        <p>Сделано с любовью и старанием на курсе «HTML + CSS» в
+        <p class="footer__text-made-by">Сделано с любовью и старанием<br> на курсе «HTML + CSS» в
           <b>LoftSchool.</b> Автор работы:
           <b>Казаков Роман</b>
         </p>
@@ -217,8 +217,8 @@
         <img src="img/logo-fig.png" alt="логотип компании">
       </div>
       <div class="footer__social">
-        <p>Наши социальные сети</p>
-        <ul>
+        <p class="footer__social-text">Наши социальные сети</p>
+        <ul class="footer__social-list">
           <li class="footer__social__logo">
             <a href="#">
               <img src="img/social/vk.png" alt="вконтакте">

@@ -19,7 +19,14 @@ h1 {
 
 .wrapper {
     min-width: 1100px;
+    min-height: 100%;
     overflow: hidden;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+    height: 77px;
 }
 
 .header {
@@ -262,14 +269,18 @@ ul.news__list {
 }
 
 .news__item {
-    margin-bottom: 46px;
+    margin-bottom: 27px;
 }
 
 .news__img {
     float: left;
+}
+
+.news__img-item {
     width: 160px;
     height: 160px;
     margin-right: 19px;
+    border-radius: 80px;
 }
 
 .news__content {
@@ -301,6 +312,13 @@ ul.news__list {
     letter-spacing: 0.7px;
 }
 
+.news__item-separate {
+    border: none;   
+    color: #f5f5f5;
+    background-color: #f5f5f5;
+    height: 2px;
+}
+
 /* PAGINATORRR */
 
 .container__pages {
@@ -308,8 +326,8 @@ ul.news__list {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-bottom: 67px;
-    margin-top: 60px;
-    margin-left: 13px;
+    margin-top: 40px;
+    margin-left: 12px;
     padding-left: 1px;
 }
 
@@ -326,6 +344,7 @@ ul.news__list {
 .container__page-num {
     font-weight: 700;
     padding: 2px;
+    padding-top: 2px;
 }
 
 .container__page-item {
@@ -382,6 +401,8 @@ ul.container__pages-list li {
     color: white;
     position: relative;
     height: 77px;
+    margin-top: -77px;
+    min-width: 1100px;
 }
 
 .footer__social {

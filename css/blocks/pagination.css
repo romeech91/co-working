@@ -30,17 +30,12 @@
   color: #221f1f;
 }
 
-.container__page--active {
+.container__page-item:hover {
   background-color: #27273e;
-  width: 25px;
-  height: 25px;
   border-radius: 3px;
-  vertical-align: middle;
-}
-
-.container__page--active a {
   color: #fff;
 }
+
 
 ul.container__pages-list li {
   list-style: none;

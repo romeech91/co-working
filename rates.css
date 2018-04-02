@@ -1,0 +1,38 @@
+.content {
+  /* border: 1px solid red; */
+}
+
+
+
+.rates-block__item {
+  list-style: none;
+  display: inline-block;
+  width: 252px;
+  height: 350px;
+  vertical-align: top;
+}
+
+.rates-block__item-img {
+  width: 250px;
+  height: 153px;
+  
+}
+
+
+.partners-block__img {
+
+}
+
+.partners-block__item {
+  list-style: none;
+  display: inline-block;
+  width: 30%;
+  margin-right: 120px;
+  margin-right: 14px;
+  margin-bottom: 40px;
+  filter: grayscale(100%);
+}
+
+.partners-block__item:hover {
+  filter: grayscale(0);
+}

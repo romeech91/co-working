@@ -30,7 +30,7 @@
 
 .container__menu-item-link:hover {
   text-decoration: none;
-  color: #000;
+  filter: grayscale(100%);
 }
 
 .container__menu-item-pic{

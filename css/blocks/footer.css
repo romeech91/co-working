@@ -21,7 +21,7 @@
 
 .footer__social-list .footer__social__logo:hover {
   background: #8F8F99;
-  box-shadow: 0 0 10px 3px #8F8F99;
+  box-shadow: 0 0 5px 3px #8F8F99;
 }
 
 .footer__social {
@@ -64,3 +64,31 @@
   top: 14px;
   left: 499px;
 }
+
+.footer__social-vk-img {
+  background: url("../../img/social/vk.png") center center no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social-fb-img {
+  background: url("../../img/social/fb.png") center center no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.footer__social-google-img {
+  background: url("../../img/social/google.png") center center no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.footer__social-twitter-img {
+  background: url("../../img/social/twitter.png") center center no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.footer__social-mail-img {
+  background: url("../../img/social/mail.png") center center no-repeat;
+  width: 20px;
+  height: 20px;
+}
+

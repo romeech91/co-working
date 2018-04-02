@@ -43,7 +43,8 @@
 		<main class="container clearfix">
 			<div class="contain">
 				<aside class="container__menu clearfix">
-					<ul class="container__menu-list">
+					<nav class="container__menu-block">
+						<ul class="container__menu-list">
 						<li class="container__menu-item">
 							<a class="container__menu-item-link" href="index.html">
 								<img class="container__menu-item-pic" src="img/menu/main-icon.png" alt="главная  лого"> главная
@@ -59,11 +60,21 @@
 								<img class="container__menu-item-pic" src="img/menu/wallet-icon.png" alt="тарифы   лого"> тарифы
 							</a>
 						</li>
-					</ul>
+						</ul>
+					</nav>	
 				</aside>
 
 				<section class="content clearfix">
-					<div class="content__breadcrumbs"><i>Главная/Отзывы</i></div>
+					<div class="content__breadcrumbs">
+						<ul class="breadcrumbs">
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__item-link" href="./index.html">Главная</a>
+							</li>
+							<li class="breadcrumbs__item">
+								<a class="breadcrumbs__item-link breadcrumbs__item-link--active" href="#">Отзывы</a>
+							</li>
+						</ul>
+					</div>
 					<div class="content__reviews">
 						<h1 class="content__reviews-heading">Отзывы</h1>
 						<ul class="content__reviews-list">
@@ -177,16 +188,22 @@
 				<form class="review-adding__block">
 					<h1 class="review-adding-heading">Оставить отзыв</h1>
 					<div class="review-adding__name review__input_left">
-						<span class="review-adding__name-text">Ваше имя</span><br>
-						<input class="review-adding__input" type="text" placeholder="Андрей">
+						<label>
+							<span class="review-adding__name-text">Ваше имя</span><br>
+							<input class="review-adding__input" type="text" placeholder="Андрей">
+						</label>
 					</div>
 					<div class="review-adding__link-vk review__input_right">
-						<span class="review-adding__link-text">Ссылка на профиль VK</span><br>
-						<input class="review-adding__input" type="text" placeholder="vk.com/example">	
+						<label>
+							<span class="review-adding__link-text">Ссылка на профиль VK</span><br>
+							<input class="review-adding__input" type="text" placeholder="vk.com/example">	
+						</label>
 					</div>	
 					<div class="review-adding__textform">
-						<span class="review-adding__textform-head">Текст отзыва</span><br>
-						<input class="review-adding__textarea" type="text" placeholder="Мне понравилось">	
+						<label>
+							<span class="review-adding__textform-head">Текст отзыва</span><br>
+							<textarea class="review-adding__textarea" type="text" placeholder="Мне понравилось"></textarea>
+						</label>
 					</div>
 					<div class="review-adding__radio-buttons">
 						<span class="review-adding__radio-buttons__question">Отображать фото в отзыве?</span> <br>
@@ -207,49 +224,48 @@
 	
 
 	<footer class="footer clearfix">
-		<div class="contain">
-			<div class="footer__text">
-				<p class="footer__text-made-by">Сделано с любовью и старанием
-					<br> на курсе «HTML + CSS» в
-					<b>LoftSchool.</b> Автор работы:
-					<b>Казаков Роман</b>
-				</p>
-			</div>
-			<div class="footer__logo">
-				<img src="img/logo-fig.png" alt="логотип компании">
-			</div>
-			<div class="footer__social">
-				<p class="footer__social-text">Наши социальные сети</p>
-				<ul class="footer__social-list">
-					<li class="footer__social__logo">
-						<a href="#">
-							<img src="img/social/vk.png" alt="вконтакте">
-						</a>
-					</li>
-					<li class="footer__social__logo">
-						<a href="#">
-							<img src="img/social/fb.png" alt="фейсбук">
-						</a>
-					</li>
-					<li class="footer__social__logo">
-						<a href="#">
-							<img src="img/social/google.png" alt="гугл">
-						</a>
-					</li>
-					<li class="footer__social__logo">
-						<a href="#">
-							<img src="img/social/twitter.png" alt="твиттер">
-						</a>
-					</li>
-					<li class="footer__social__logo">
-						<a href="#">
-							<img src="img/social/mail.png" alt="почта">
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+    <div class="contain">
+      <div class="footer__text">
+        <p class="footer__text-made-by">Сделано с любовью и старанием<br> на курсе «HTML + CSS» в
+          <b>LoftSchool.</b> Автор работы:
+          <b>Казаков Роман</b>
+        </p>
+      </div>
+      <div class="footer__logo">
+        <img src="img/logo-fig.png" alt="логотип компании">
+      </div>
+      <div class="footer__social">
+        <p class="footer__social-text">Наши социальные сети</p>
+        <ul class="footer__social-list">
+          <li class="footer__social__logo">
+            <a class="footer__social-vk" href="#">
+              <div class="footer__social-vk-img"></div>
+            </a>
+          </li>
+          <li class="footer__social__logo">
+            <a class="footer__social-fb" href="#">
+              <div class="footer__social-fb-img"></div>
+            </a>
+          </li>
+          <li class="footer__social__logo">
+            <a class="footer__social-google" href="#">
+              <div class="footer__social-google-img"></div>
+            </a>
+          </li>
+          <li class="footer__social__logo">
+            <a class="footer__social-twitter" href="#">
+              <div class="footer__social-twitter-img"></div>
+            </a>
+          </li>
+          <li class="footer__social__logo">
+            <a class="footer__social-mail" href="#">
+              <div class="footer__social-mail-img"></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</footer>
 
 
 </body>

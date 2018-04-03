@@ -37,6 +37,8 @@ body, html {
 .content {
   float: left;
   width: 85%;
+  margin-top: -11px;
+  padding-left: 34px;
 }
 
 .content__reviews-item {
@@ -47,6 +49,7 @@ body, html {
 
 .content__reviews-heading {
   font-size: 49px;
+  margin-top: 8px;
 }
 
 
@@ -200,7 +203,47 @@ body, html {
   max-width: 563px;
 }
 
-.review-adding__radio-buttons__question {
+.radio-button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.radio-button-input {
+  display: none;
+}
+.radio-button-input:checked + .radio-button--style:before {
+  transform: scale(1);
+}
+
+.radio-button--style {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ec1e79;
+  border-radius: 50%;
+  margin: 0;
+  float: left;
+  margin-right: 5px;
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.radio-button--style:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 6px;
+  bottom: 6px;
+  background: #ec1e79;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  transform: scale(0);
+  transition: .4s;
+}
+
+.answer {
   
 }
 

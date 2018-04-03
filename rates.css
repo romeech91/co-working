@@ -19,8 +19,12 @@
 }
 
 
-.partners-block__img {
-
+.partners-block__heading,    .rates-block__heading     {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
 }
 
 .partners-block__item {

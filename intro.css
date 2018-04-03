@@ -8,19 +8,20 @@
 
 .intro__logo {
   position: relative;
-  text-align: center;
-  vertical-align: middle;
-  top: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 182px;
 }
 
 .intro__logo__link {
-  position: absolute;
-  top: 152px;
-  left: 43%;
+  position: relative;
   width: 182px;
   height: 44px;
   border: 3px solid #ec1e79;
   text-align: center;
+  margin-top: 29px;
+  margin-left: -10px;
 }
 .intro__logo__link:hover {
   border: 3px solid #f06fa9;

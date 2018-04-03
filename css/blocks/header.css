@@ -5,9 +5,7 @@
 /*   margin-bottom: 67px; */
 }
 
-.main__container {
-  margin-top: 67px;
-}
+
 
 .header__top {
   background-color: #27273e;
@@ -41,6 +39,7 @@
 .header__main-pic {
   background-color: #2d2941;
   height: 363px;
+  margin-bottom: 67px;
 }
 
 .number {

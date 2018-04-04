@@ -1,5 +1,7 @@
 
-
+.rates-block__list {
+  margin-top: 43px;
+}
 
 .rates-block__item {
   list-style: none;
@@ -7,22 +9,96 @@
   width: 252px;
   height: 350px;
   vertical-align: top;
+  margin-right: 35px;
+  margin-bottom: 48px;
 }
 
 .rates-block__item-img {
   width: 250px;
   height: 153px;
+  margin-bottom: 26px;
+  border-radius: 4px;
+}
+
+.bg1 {
+  background: url("./img/prices/rates_bg/bg1.jpg") center center no-repeat;
+}
+.bg2 {
+  background: url("./img/prices/rates_bg/bg2.jpg") center center no-repeat;
+}
+.bg3 {
+  background: url("./img/prices/rates_bg/bg3.jpg") center center no-repeat;
+}
+.bg4 {
+  background: url("./img/prices/rates_bg/bg4.jpg") center center no-repeat;
+}
+.bg5 {
+  background: url("./img/prices/rates_bg/bg5.jpg") center center no-repeat;
+}
+.bg6 {
+  background: url("./img/prices/rates_bg/bg6.jpg") center center no-repeat;
+}
+
+.block__item-opacity {
+  background-color: #27273e;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  position: relative;
+}
+
+.block__item-opacity__text {
+  margin: 0;
+  color: #5dd1f8;
+  font-family: "Gotham Pro";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  line-height: 34px;
+}
+
+.block__item-opacity__text--red {
+  color: #ec1e79;
+}
+
+.rates-block__item-text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 21.02px;
+  font-weight: 300;
+}
+
+.rates-block__item-heading {
+  color: #221f1f;
   
 }
 
-
-.partners-block__heading,    .rates-block__heading     {
+.rates-block__heading {
   color: #221f1f;
   font-family: "Gotham Pro";
   font-size: 49px;
   font-weight: 700;
   line-height: 38px;
 }
+
+.content__partners-block {
+  margin-top: 73px;
+}
+
+.partners-block__heading {
+  color: #221f1f;
+  font-family: "Gotham Pro";
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+}   
 
 .partners-block__item {
   list-style: none;

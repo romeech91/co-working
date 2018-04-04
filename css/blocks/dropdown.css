@@ -1,0 +1,71 @@
+.schedule_dropped:hover {
+  width: 164px;
+  height: 70px;
+  box-shadow: 0 0 10px rgba(23, 59,117, 0.55);
+  border: 1px solid slategray;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 111;
+  background: #fff;
+  left: 915px;
+  top: 77px;
+}
+
+
+.dropdown__shedule {
+  width: 164px;
+  height: 70px;
+  box-shadow: 0 0 10px rgba(23, 59,117, 0.55);
+  border: 1px solid slategray;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  left: -1915px;
+  top: 77px;
+}
+
+
+
+.dropdown__shedule:before {
+  display: block;
+  left: 0;
+  right: 0;
+  top: 75px;
+  height: 30px;
+  position: absolute;
+  border: 2px solid yellow;
+}
+
+.dropdown__schedule_triangle {
+  width: 18px;
+  height: 18px;
+  border-right: 1px solid slategray;
+  border-bottom: 1px solid slategray;
+  position: relative;
+  left: 140px;
+  top: -10px;
+  background: #fff;
+  transform: rotate(225deg);
+}
+
+.dropdown__list {
+  float: left;
+  list-style: none;
+  padding: 0;
+  padding-left: 11px;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 17px;
+  line-height: 18px;
+}
+
+.dropdown__item1 {
+  color: #ec1e79;
+  font-weight: 700;
+}
+
+.dropdown__item2 {
+  text-align: left;
+}

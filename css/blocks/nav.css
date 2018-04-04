@@ -36,6 +36,8 @@
 .container__menu-item-link:hover {
   text-decoration: none;
   filter: grayscale(100%);
+  transition: .3s ease-in-out;
+  text-decoration: underline;
 }
 
 .container__menu-item-pic{

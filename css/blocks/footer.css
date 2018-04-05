@@ -19,10 +19,10 @@
   text-align: center;
 }
 
-.footer__social-list .footer__social__logo:hover {
+/* .footer__social-list .footer__social__logo:hover {
   background: #8F8F99;
   box-shadow: 0 0 5px 3px #8F8F99;
-}
+} */
 
 .footer__social {
   margin-left: 909px;
@@ -66,30 +66,75 @@
 }
 
 .footer__social-vk-img {
-  background: url("../../img/social/vk.png") center center no-repeat;
+  background: url("../../img/social/social_sprite.png") 0 -40px;
   width: 20px;
   height: 20px;
+  display: block;
+}
+
+.footer__social-vk-img:hover {
+  background: url("../../img/social/social_sprite.png") 0 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transition: .2s ease;
 }
 
 .footer__social-fb-img {
-  background: url("../../img/social/fb.png") center center no-repeat;
+  background: url("../../img/social/social_sprite.png") -31px -40px;
   width: 20px;
   height: 20px;
+  display: block;
 }
+.footer__social-fb-img:hover {
+  background: url("../../img/social/social_sprite.png") -31px 0px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transition: .2s ease;
+}
+
+
 .footer__social-google-img {
-  background: url("../../img/social/google.png") center center no-repeat;
+  background: url("../../img/social/social_sprite.png") -67px -40px;
   width: 20px;
   height: 20px;
+  display: block;
 }
+.footer__social-google-img:hover {
+  background: url("../../img/social/social_sprite.png") -67px 0px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transition: .2s ease;
+
+}
+
+
+
 .footer__social-twitter-img {
-  background: url("../../img/social/twitter.png") center center no-repeat;
+  background: url("../../img/social/social_sprite.png") -103px -40px;
   width: 20px;
   height: 20px;
 }
-.footer__social-mail-img {
-  background: url("../../img/social/mail.png") center center no-repeat;
+.footer__social-twitter-img:hover {
+  background: url("../../img/social/social_sprite.png") -103px 0px;
   width: 20px;
   height: 20px;
+  transition: .2s ease;
+}
+
+
+.footer__social-mail-img {
+  background: url("../../img/social/social_sprite.png") -141px -40px;
+  width: 20px;
+  height: 20px;
+}
+.footer__social-mail-img:hover {
+  background: url("../../img/social/social_sprite.png") -141px 0px;
+  width: 20px;
+  height: 20px;
+  transition: .2s ease;
 }
 
 .footer--font-weight {

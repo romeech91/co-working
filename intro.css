@@ -1,12 +1,19 @@
 .wrapper__intro {
-  background:url("./img/intro/main-bg.png") center center no-repeat;
+  background:url("./img/intro/main-bg.jpg") center center no-repeat;
   background-size: 100%;
   width: 100%;
   height: 100%;
   position: relative;
 }
 
+.wrapper__intro:before {
+  background-color: yellow;
+  opacity: 50%;
+  z-index: 10;
+}
+
 .intro__logo {
+  z-index: 2;
   position: relative;
   top: 50%;
   left: 50%;
@@ -50,19 +57,3 @@
   margin-top: -7px;
 }
 
-@keyframes stretching {
-  from {
-    width: 0px;
-    transform: translateY(-200px);
-  }
-
-  50% {
-    transform: rotate(180deg);
-  }
-
-  }
-  to {
-    transform: translateY(100px);
-    width: 182px;
-  }
-}

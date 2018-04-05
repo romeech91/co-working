@@ -122,6 +122,7 @@
 .flash {
   -webkit-animation-name: flash;
   animation-name: flash;
+  animation-duration: 2s;
 }
 
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */

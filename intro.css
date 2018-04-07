@@ -19,10 +19,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 182px;
-  animation-name: stretching;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
 }
 
 .intro__logo__link {
@@ -35,13 +31,14 @@
   margin-left: -10px;
 }
 .intro__logo__link:hover {
-  border: 3px solid #f06fa9;
-  box-shadow: 0 0 3px 2px #f5a5c9;
+  background-color: #ec1e79;
+  box-shadow: 0 0 2px 1px #ec1e7b73;
+  transition: ease .9s;
 }
 
 .intro__logo__link-to:hover {
   color: #fff;
-  transition: ease 1s;
+  transition: ease-in .1s;
 }
 
 .intro__logo__link-to {
@@ -57,3 +54,27 @@
   margin-top: -7px;
 }
 
+@keyframes logo-shake {
+  0% {
+    opacity: 0;
+    transform: scale(0.01) rotate(45deg);
+  }
+
+  35% {
+    transform: rotate(-25deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.intro__logo--animate {
+  animation: logo-shake 1.3s;
+  animation-timing-function: ease;
+}

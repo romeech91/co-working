@@ -267,3 +267,10 @@ body, html {
   border-radius: 3px;
   cursor: pointer;
 }
+
+.review-adding__button-submit:hover {
+  background-color: #ec1e79;
+  transition: linear .1s;
+  border: 1px solid #ec1e79;
+  box-shadow: 0 0 2px 1px #ec1e7b73;
+}

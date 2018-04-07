@@ -1,18 +1,14 @@
-.schedule_dropped:hover {
-  width: 164px;
-  height: 70px;
-  box-shadow: 0 0 10px rgba(23, 59,117, 0.55);
-  border: 1px solid slategray;
-  border-radius: 3px;
-  position: absolute;
-  z-index: 111;
-  background: #fff;
-  left: 915px;
-  top: 77px;
+.schedule_dropped:hover + dropdown__schedule {
+  display: block;
+  transition: 1s;
+  opacity: 100;
+  cursor: pointer;
+
 }
 
 
-.dropdown__shedule {
+.dropdown__schedule {
+  display: block;
   width: 164px;
   height: 70px;
   box-shadow: 0 0 10px rgba(23, 59,117, 0.55);
@@ -21,21 +17,11 @@
   position: absolute;
   z-index: 1;
   background: #fff;
-  left: -1915px;
+  left: 915px;
   top: 77px;
 }
 
 
-
-.dropdown__shedule:before {
-  display: block;
-  left: 0;
-  right: 0;
-  top: 75px;
-  height: 30px;
-  position: absolute;
-  border: 2px solid yellow;
-}
 
 .dropdown__schedule_triangle {
   width: 18px;

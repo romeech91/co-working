@@ -33,7 +33,8 @@
 .container__page-item:hover {
   background-color: #27273e;
   border-radius: 3px;
-  color: #fff;
+  color: #ec1e79;
+  width: 100%;
 }
 
 

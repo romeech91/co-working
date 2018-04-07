@@ -59,6 +59,7 @@
   display: block;
   margin-top: 9px;
   letter-spacing: 0.6px;
+  overflow: hidden;
 }
 
 .news__content-theme {

@@ -21,22 +21,22 @@
 }
 
 .bg1 {
-  background: url("./img/prices/rates_bg/bg1.jpg") center center no-repeat;
+  background: url("./../../img/prices/rates_bg/bg1.jpg") center center no-repeat;
 }
 .bg2 {
-  background: url("./img/prices/rates_bg/bg2.jpg") center center no-repeat;
+  background: url("./../../img/prices/rates_bg/bg2.jpg") center center no-repeat;
 }
 .bg3 {
-  background: url("./img/prices/rates_bg/bg3.jpg") center center no-repeat;
+  background: url("./../../img/prices/rates_bg/bg3.jpg") center center no-repeat;
 }
 .bg4 {
-  background: url("./img/prices/rates_bg/bg4.jpg") center center no-repeat;
+  background: url("./../../img/prices/rates_bg/bg4.jpg") center center no-repeat;
 }
 .bg5 {
-  background: url("./img/prices/rates_bg/bg5.jpg") center center no-repeat;
+  background: url("./../../img/prices/rates_bg/bg5.jpg") center center no-repeat;
 }
 .bg6 {
-  background: url("./img/prices/rates_bg/bg6.jpg") center center no-repeat;
+  background: url("./../../img/prices/rates_bg/bg6.jpg") center center no-repeat;
 }
 
 .block__item-opacity {
@@ -98,29 +98,7 @@
   line-height: 38px;
 }
 
-.content__partners-block {
-  margin-top: 73px;
-}
 
-.partners-block__heading {
-  color: #221f1f;
-  font-family: "Gotham Pro";
-  font-size: 49px;
-  font-weight: 700;
-  line-height: 38px;
-}   
 
-.partners-block__item {
-  list-style: none;
-  display: inline-block;
-  width: 30%;
-  margin-right: 120px;
-  margin-right: 14px;
-  margin-bottom: 40px;
-  filter: grayscale(100%);
-}
 
-.partners-block__item:hover {
-  filter: grayscale(0);
-  transition: 1s ease;
-}
+

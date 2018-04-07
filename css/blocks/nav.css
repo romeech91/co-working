@@ -33,7 +33,42 @@
   letter-spacing: 1px;
 }
 
-.menu-item-star:after {
+.container__menu-item-link:hover {
+  color: #000;
+}
+
+.text__pos1 {
+  position: absolute;
+  top: 6px;
+  left: 54px;
+}
+
+.text__pos2 {
+  position: absolute;
+  top: 58px;
+  left: 54px;
+}
+
+.text__pos3 {
+  position: absolute;
+  top: 111px;
+  left: 55px;
+}
+
+.menu-optimisation {
+  display: inline-block;
+  content: "";
+  background: url("./../../img/menu/spritemenu.png"); 
+  background-repeat: no-repeat;  
+  height: 18px;
+  width: 23px;
+}
+
+.menu-item-star {
+  background-position: -32px -4px;
+}
+
+.menu-item-star:before {
   display: inline-block;
   content: "";
   background: url("./../../img/menu/spritemenu.png");
@@ -41,18 +76,14 @@
   background-position: -4px -4px;
   height: 18px;
   width: 23px;
-}
-.menu-item-star:after:hover   {
-  position: absolute;
-  display: inline-block;
-  content: "";
-  background: url("./../../img/menu/");
-  background-repeat: no-repeat;
-  height: 18px;
-  width: 23px;
+  transition: .2s;
 }
 
-.menu-item-main:before {
+.menu-item-main {
+  background-position: -83px -1px;
+}
+
+.menu-item-main::before {
   display: inline-block;
   content: "";
   background: url("./../../img/menu/spritemenu.png");
@@ -60,46 +91,30 @@
   background-position: -58px -1px;
   height: 18px;
   width: 23px;
+  transition: .2s;
 }
 
 .menu-item-wallet {
-  display: inline-block;
-  content: "";
-  background: url("./../../img/menu/spritemenu.png");
-  background-repeat: no-repeat;
-  background-position: -110px -2px;
-  height: 18px;
-  width: 23px;
-  opacity: 1;
-/*   transition: opacity 0.5s; */
-}
-
-.menu-item-wallet:hover {
-  opacity: 0;
+  background-position: -137px -2px;
 }
 
 .menu-item-wallet::before {
   content: "";
   background: url("./../../img/menu/spritemenu.png");
-  background-position: -137px -2px;
+  background-position: -110px -2px;
   background-repeat: no-repeat;
   height: 18px;
   width: 23px;
   display: inline-block;
+  transition: .2s;
 }
 
-.menu-item-wallet::before:hover {
+.menu-item-wallet:hover::before, .menu-item-main:hover::before, .menu-item-star:hover::before {
   opacity: 0;
 } 
 
-
 .container__menu-item-link:hover {
   text-decoration: none;
-  transition: .3s ease-in-out;
-  text-decoration: underline;
+  transition: .2s ease-in-out;
 }
 
-.container__menu-item-pic{
-  margin-right: 14px;
-  vertical-align: text-bottom;
-}

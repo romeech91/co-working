@@ -1,0 +1,30 @@
+.container__separating {
+  background-color: #27273e;
+  width: 100%;
+}
+
+.container__separating-block {
+  background-color: #27273e;
+  min-height: 174px;
+}
+
+.container__separating-block-inner {
+  width: 100%;
+  min-height: 174px;
+  background: url("./../../img/pattern.png") center center no-repeat;
+}
+
+.separating-block-text {
+  font-size: 18px;
+  display: block;
+  color: white;
+  width: 613px;
+  line-height: 30px;
+  padding-top: 48px;
+  margin-left: 233px;
+}
+
+.separating-block-text-bold {
+  color: #ec1e79;
+  font-weight: 700;
+}

@@ -1,16 +1,12 @@
 .wrapper__intro {
-  background:url("./img/intro/main-bg.jpg") center center no-repeat;
-  background-size: 100%;
+  color: #5dd1f8;
+  background:url("./../../img/intro/main-bg3.jpg") center center no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-.wrapper__intro:before {
-  background-color: yellow;
-  opacity: 50%;
-  z-index: 10;
-}
 
 .intro__logo {
   z-index: 2;

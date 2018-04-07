@@ -22,7 +22,7 @@
 				<div class="contain clearfix">
 
 					<div class="header__top-item--left">
-						<a href="./index.html">
+						<a href="./main.html">
 						<img class="header__top-item-logo" src="img/logo-fig.png" alt="логотип компании">
 						</a>
 					</div>
@@ -46,14 +46,14 @@
 					<nav class="container__menu-block">
 						<ul class="container__menu-list">
 							<li class="container__menu-item">
-								<a class="container__menu-item-link menu-item-main menu-optimisation" href="index.html"> 
+								<a class="container__menu-item-link menu-item-main menu-optimisation" href="main.html"> 
 									 <span class="text__pos1">главная</span>
 								</a>
 							</li>
 							<li class="container__menu-item">
-								<a class="container__menu-item-link menu-item-star menu-optimisation" href="reviews.html">
+								<span class="container__menu-item-link menu-item-star menu-optimisation active2">
 									<span class="text__pos2">отзывы</span>
-								</a>
+								</span>
 							</li>
 							<li class="container__menu-item">
 								<a class="container__menu-item-link menu-item-wallet menu-optimisation" href="rates.html">
@@ -68,7 +68,7 @@
 					<div class="content__breadcrumbs">
 						<ul class="breadcrumbs">
 							<li class="breadcrumbs__item">
-								<a class="breadcrumbs__item-link" href="./index.html">Главная</a>
+								<a class="breadcrumbs__item-link" href="./main.html">Главная</a>
 							</li>
 							<li class="breadcrumbs__item">
 								<p class="breadcrumbs__item-link breadcrumbs__item-link--active">Отзывы</p>
@@ -139,40 +139,52 @@
 				<!-- CONTENT END -->
 				<div class="container__pages">
           <!--CHOOSE PAGES -->
-          <ul class="container__pages-list">
-            <li class="container__page-choose">Страница 1 из 7</li>
-            <li class="container__page">
-              <a href="#">
-                <img src="img/left-arrow-light.png" alt="стрелка влево">
-              </a>
-            </li>
-            <li class="container__page-num">
-                <a class="container__page-item" href="#">1</a>
-            </li>
-            <li class="container__page-num">
-              <a class="container__page-item " href="#">2</a>
-            </li>
-            <li class="container__page-num">
-              <a class="container__page-item" href="#">3</a>
-            </li>
-            <li class="container__page-num">
-              <a class="container__page-item" href="#">4</a>
-            </li>
-            <li class="container__page-num">
-              <a class="container__page-item" href="#">5</a>
-            </li>
-            <li class="container__page-num">
-              <a class="container__page-item" href="#">6</a>
-            </li>
-            <li class="container__page-num">
-              <a class="container__page-item" href="#">7</a>
-            </li>
-            <li class="container__page">
-              <a href="">
-                <img src="img/right-arrow.png" alt="стрелка вправо">
-              </a>
-            </li>
-          </ul>
+          <div class="pagination">
+							<span class="pagination__title">Страница 1 из 7</span>
+							<a class="pagination__item__link pagination_item_cursor_left" href="#" title="На предыдущую страницу">
+									<span>&lsaquo;</span>
+							</a>
+							<ul class="pagination__list">
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу 1">
+													<span class="pagination__item-block pagination_item_active">1</span>
+											</a>
+									</li>
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу номер 2">
+													<span class="pagination__item-block">2</span>
+											</a>
+									</li>
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу номер 3">
+													<span class="pagination__item-block">3</span>
+											</a>
+									</li>
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу номер 4">
+													<span class="pagination__item-block">4</span>
+											</a>
+									</li>
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу номер 5">
+													<span class="pagination__item-block">5</span>
+											</a>
+									</li>
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу номер 6">
+													<span class="pagination__item-block">6</span>
+											</a>
+									</li>
+									<li class="pagination__item">
+											<a class="pagination__item__link" href="#" title="На страницу номер 7">
+													<span class="pagination__item-block">7</span>
+											</a>
+									</li>
+							</ul>
+							<a class="pagination__item__link pagination_item_cursor_right" href="#" title="На следующую страницу">
+									<span>&rsaquo;</span>
+							</a>
+					</div>
         </div>
 			</div>	<!-- CONTAIN -->
 			<div class="container__separating">
@@ -232,7 +244,7 @@
         </p>
       </div>
       <div class="footer__logo">
-        <a class="main__link" href="index.html"><img src="img/logo-fig.png" alt="логотип компании"></a>
+        <a class="main__link" href="main.html"><img src="img/logo-fig.png" alt="логотип компании"></a>
       </div>
       <div class="footer__social">
         <p class="footer__social-text">Наши социальные сети</p>

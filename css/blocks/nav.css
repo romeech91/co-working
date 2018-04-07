@@ -118,3 +118,36 @@
   transition: .2s ease-in-out;
 }
 
+.active1, .active2, .active3 {
+  color: #000;
+}
+
+.active1:before {
+  display: inline-block;
+  content: "";
+  background: url("./../../img/menu/spritemenu.png");
+  background-repeat: no-repeat;
+  background-position: -83px -1px;
+  height: 18px;
+  width: 23px;
+}
+
+.active2:before {
+  display: inline-block;
+  content: "";
+  background: url("./../../img/menu/spritemenu.png");
+  background-repeat: no-repeat;
+  background-position: -32px -4px;
+  height: 18px;
+  width: 23px;
+}
+
+.active3:before {
+  content: "";
+  background: url("./../../img/menu/spritemenu.png");
+  background-position: -137px -2px;
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 23px;
+  display: inline-block;
+}

@@ -1,6 +1,6 @@
 
 .dropdown__schedule {
-  display: block;
+  display: none;
   width: 164px;
   height: 70px;
   box-shadow: 0 0 10px rgba(23, 59,117, 0.55);
@@ -13,7 +13,9 @@
   top: 77px;
 }
 
-
+.schedule_dropped:hover + .dropdown__schedule {
+  display: block;
+}
 
 .dropdown__schedule_triangle {
   width: 18px;

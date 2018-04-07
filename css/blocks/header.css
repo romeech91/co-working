@@ -54,7 +54,7 @@
 }
 
 .number:hover {
-  color: #FAC2DB;
+  text-decoration: underline;
 }
 
 .schedule_dropped {

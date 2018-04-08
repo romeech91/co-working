@@ -2,38 +2,25 @@
 .header {
   width: 100%;
   background: #2d2941;
-/*   margin-bottom: 67px; */
 }
-
-
 
 .header__top {
   background-color: #27273e;
   min-height: 76px;
   position: relative;
+  padding-top: 16px;
+  padding-left: 30px;
 }
 
-.header__top-item--right {
-  float: right;
-  display: inline-block;
-  width: 50%;
-  text-align: right;
-}
-
-.header__top-item--left {
-  display: inline-block;
-  width: 50%;
-}
-
-.header__top-item-logo {
-  padding-top: 17px;
-  padding-left: 19px;
+.header__top-info {
+  width: 1066px;
 }
 
 .contacts {
   display: inline-block;
-  padding-right: 16px;
-  padding-top: 21px;
+  float: right;
+  width: 203px;
+  text-align: right;
 }
 
 .header__main-pic {
@@ -62,9 +49,8 @@
   font-size: 14px;
   font-weight: 700;
   color: #ec1e79;
-  padding-top: 2px;
-  display: block;
-  padding-right: 6px;
+  padding-top: 5px;
+  display: inline-block;
 }
 
 .schedule_dropped:hover {

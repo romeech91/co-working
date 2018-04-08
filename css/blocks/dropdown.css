@@ -10,11 +10,11 @@
   z-index: 1;
   background: #fff;
   left: -915px;
-  top: 77px;
+  top: 65px;
 }
 
 .schedule_dropped:hover + .dropdown__schedule {
-  left: 915px;
+  left: 910px;
 }
 
 .dropdown__schedule_triangle {

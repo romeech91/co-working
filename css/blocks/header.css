@@ -51,8 +51,12 @@
   color: #ec1e79;
   padding-top: 5px;
   display: inline-block;
+  text-decoration: underline;
+  transition: .4s;
 }
 
 .schedule_dropped:hover {
   color: #5dd1f8;
+  cursor: pointer;
 }
+
